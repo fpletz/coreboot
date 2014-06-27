@@ -676,7 +676,7 @@ config PAYLOAD_FILE
 
 config PAYLOAD_FILE
 	depends on PAYLOAD_GRUB2
-	default "payloads/external/GRUB2/grub2/build/default_payload.elf"
+	default "payloads/external/GRUB2/payload.elf"
 
 config PAYLOAD_FILE
 	string "Tianocore firmware volume"
